@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ISpy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cbw-7t-Qky">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jeremy-perret-769182-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="7Ut-Wr-Fub">
+                                        <rect key="frame" x="8" y="8" width="359" height="631"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="7Ut-Wr-Fub" firstAttribute="leading" secondItem="cbw-7t-Qky" secondAttribute="leadingMargin" id="BEN-Mf-crd"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="7Ut-Wr-Fub" secondAttribute="trailing" id="TGz-EM-pqI"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="7Ut-Wr-Fub" secondAttribute="bottom" id="e7x-9O-rLn"/>
+                                    <constraint firstItem="7Ut-Wr-Fub" firstAttribute="centerY" secondItem="cbw-7t-Qky" secondAttribute="centerY" id="eNI-1T-4Wd"/>
+                                    <constraint firstItem="7Ut-Wr-Fub" firstAttribute="top" secondItem="cbw-7t-Qky" secondAttribute="topMargin" id="nhe-9H-7kG"/>
+                                    <constraint firstItem="7Ut-Wr-Fub" firstAttribute="centerX" secondItem="cbw-7t-Qky" secondAttribute="centerX" id="ywS-jz-LZQ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cbw-7t-Qky" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LX9-nD-liT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cbw-7t-Qky" secondAttribute="trailing" id="O7f-sz-yA8"/>
+                            <constraint firstItem="cbw-7t-Qky" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aN8-Mz-lRJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cbw-7t-Qky" secondAttribute="bottom" id="z43-fR-YnN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="7Ut-Wr-Fub" id="tOh-96-ePC"/>
+                        <outlet property="scrollView" destination="cbw-7t-Qky" id="VtN-K8-qh4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="jeremy-perret-769182-unsplash" width="4000" height="6000"/>
+    </resources>
+</document>

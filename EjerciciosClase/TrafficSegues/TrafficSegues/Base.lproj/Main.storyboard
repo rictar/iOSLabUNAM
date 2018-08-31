@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="05c-aQ-ugh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Red-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TrafficSegues" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18x-nU-Qh8">
+                                <rect key="frame" x="16" y="318" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Push to Yellow"/>
+                                <connections>
+                                    <action selector="yellowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dOJ-Rv-MKY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gte-Yt-LLf">
+                                <rect key="frame" x="261" y="318" width="98" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Push to Green"/>
+                                <connections>
+                                    <action selector="YellowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sNc-iG-2Wi"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v3P-Dk-0b5">
+                                <rect key="frame" x="164" y="393" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" badgeValue="2" systemItem="favorites" id="jxK-Z4-FXE"/>
+                    <navigationItem key="navigationItem" title="Red" id="MWQ-2i-2E7">
+                        <barButtonItem key="backBarButtonItem" title="Regresa" id="Wqo-au-d3n"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="navigationItem" destination="MWQ-2i-2E7" id="YCM-5w-JzA"/>
+                        <outlet property="segueSwitch" destination="v3P-Dk-0b5" id="vsJ-zj-d2R"/>
+                        <segue destination="u6M-az-IDe" kind="show" identifier="yellow" id="q90-lC-84m"/>
+                        <segue destination="EPt-ml-Wyo" kind="show" identifier="green" id="xwH-NS-jm2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2015.2" y="133.5832083958021"/>
+        </scene>
+        <!--Yellow-->
+        <scene sceneID="S2h-u7-zrN">
+            <objects>
+                <viewController id="u6M-az-IDe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ysv-2r-vSv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4i-Pj-jQ9">
+                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79186718479999996" blue="0.1775021527" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="zc7-cJ-nHF"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Yellow" largeTitleDisplayMode="never" id="sYe-0d-NWV">
+                        <barButtonItem key="backBarButtonItem" title="Regresa" id="mON-2J-eAl"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vAS-Mg-jny" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2868" y="-419.64017991004499"/>
+        </scene>
+        <!--Verde-->
+        <scene sceneID="JfO-f6-djw">
+            <objects>
+                <viewController id="EPt-ml-Wyo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="akL-bI-9yX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="WZB-Oz-nj0"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Verde" largeTitleDisplayMode="never" id="SNW-C3-CEf">
+                        <barButtonItem key="backBarButtonItem" title="Regresa" id="9UK-nF-in6"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="uhG-93-qaf">
+                            <connections>
+                                <segue destination="UvY-aR-Ccg" kind="unwind" unwindAction="unwindToRedWithUnwindSegue:" id="ibT-6C-nmO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pet-LR-gxw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="UvY-aR-Ccg" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2868" y="419.64017991004499"/>
+        </scene>
+        <!--Gray-->
+        <scene sceneID="Fd2-ZZ-LdS">
+            <objects>
+                <viewController id="5jR-oY-rzh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AWH-db-2Kn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rUv-wW-CKH"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="OQg-OW-XyV"/>
+                    <navigationItem key="navigationItem" title="Gray" largeTitleDisplayMode="never" id="3uG-ej-30W"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="66r-UZ-d2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1088" y="987"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="15V-sf-jwO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="05c-aQ-ugh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="0nY-T6-hpO">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Q8S-Tn-j9u" kind="relationship" relationship="rootViewController" id="xGO-Mg-fc8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y7d-64-Nto" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="111" y="134"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="iKg-0P-4tE">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Q8S-Tn-j9u" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="kbM-Le-xxe"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CFI-Vb-vdq">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="QqD-ce-3ID"/>
+                        <segue destination="5jR-oY-rzh" kind="relationship" relationship="viewControllers" id="dmV-H3-YZJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GXj-Xm-Aoh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
