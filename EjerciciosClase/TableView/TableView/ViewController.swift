@@ -30,6 +30,9 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
         
         let alertController = UIAlertController(title: "Alumnos", message: "Hola como estas", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "ok", style: .default, handler: nil)
+//        let cancelAction = UIAlertAction(title: "Cancelar", style: .cancel){(UIAlertAction)}
+        
+        
         alertController.addAction(okAction)
         present(alertController, animated: true, completion: nil)
     }

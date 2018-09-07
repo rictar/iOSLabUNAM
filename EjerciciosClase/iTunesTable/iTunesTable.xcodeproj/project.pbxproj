@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C25B7FB21380E3C007C51FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C25B7FA21380E3C007C51FD /* AppDelegate.swift */; };
-		8C25B7FD21380E3C007C51FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C25B7FC21380E3C007C51FD /* ViewController.swift */; };
-		8C25B80021380E3C007C51FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C25B7FE21380E3C007C51FD /* Main.storyboard */; };
-		8C25B80221380E3D007C51FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C25B80121380E3D007C51FD /* Assets.xcassets */; };
-		8C25B80521380E3D007C51FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C25B80321380E3D007C51FD /* LaunchScreen.storyboard */; };
+		8CAC68C5213B000C001B34A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC68C4213B000C001B34A0 /* AppDelegate.swift */; };
+		8CAC68C7213B000C001B34A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC68C6213B000C001B34A0 /* ViewController.swift */; };
+		8CAC68CA213B000C001B34A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAC68C8213B000C001B34A0 /* Main.storyboard */; };
+		8CAC68CC213B000D001B34A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAC68CB213B000D001B34A0 /* Assets.xcassets */; };
+		8CAC68CF213B000D001B34A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAC68CD213B000D001B34A0 /* LaunchScreen.storyboard */; };
+		8CAC68D7213B00E3001B34A0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC68D6213B00E3001B34A0 /* Model.swift */; };
+		8CAC68D9213B10ED001B34A0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC68D8213B10EC001B34A0 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C25B7F721380E3C007C51FD /* ISpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C25B7FA21380E3C007C51FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C25B7FC21380E3C007C51FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8C25B7FF21380E3C007C51FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C25B80121380E3D007C51FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8C25B80421380E3D007C51FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8C25B80621380E3D007C51FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAC68C1213B000C001B34A0 /* iTunesTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAC68C4213B000C001B34A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CAC68C6213B000C001B34A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CAC68C9213B000C001B34A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CAC68CB213B000D001B34A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CAC68CE213B000D001B34A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CAC68D0213B000D001B34A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAC68D6213B00E3001B34A0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8CAC68D8213B10EC001B34A0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8C25B7F421380E3C007C51FD /* Frameworks */ = {
+		8CAC68BE213B000C001B34A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8C25B7EE21380E3C007C51FD = {
+		8CAC68B8213B000C001B34A0 = {
 			isa = PBXGroup;
 			children = (
-				8C25B7F921380E3C007C51FD /* ISpy */,
-				8C25B7F821380E3C007C51FD /* Products */,
+				8CAC68C3213B000C001B34A0 /* iTunesTable */,
+				8CAC68C2213B000C001B34A0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8C25B7F821380E3C007C51FD /* Products */ = {
+		8CAC68C2213B000C001B34A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C25B7F721380E3C007C51FD /* ISpy.app */,
+				8CAC68C1213B000C001B34A0 /* iTunesTable.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8C25B7F921380E3C007C51FD /* ISpy */ = {
+		8CAC68C3213B000C001B34A0 /* iTunesTable */ = {
 			isa = PBXGroup;
 			children = (
-				8C25B7FA21380E3C007C51FD /* AppDelegate.swift */,
-				8C25B7FC21380E3C007C51FD /* ViewController.swift */,
-				8C25B7FE21380E3C007C51FD /* Main.storyboard */,
-				8C25B80121380E3D007C51FD /* Assets.xcassets */,
-				8C25B80321380E3D007C51FD /* LaunchScreen.storyboard */,
-				8C25B80621380E3D007C51FD /* Info.plist */,
+				8CAC68C4213B000C001B34A0 /* AppDelegate.swift */,
+				8CAC68C6213B000C001B34A0 /* ViewController.swift */,
+				8CAC68C8213B000C001B34A0 /* Main.storyboard */,
+				8CAC68CB213B000D001B34A0 /* Assets.xcassets */,
+				8CAC68CD213B000D001B34A0 /* LaunchScreen.storyboard */,
+				8CAC68D0213B000D001B34A0 /* Info.plist */,
+				8CAC68D6213B00E3001B34A0 /* Model.swift */,
+				8CAC68D8213B10EC001B34A0 /* SecondViewController.swift */,
 			);
-			path = ISpy;
+			path = iTunesTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C25B7F621380E3C007C51FD /* ISpy */ = {
+		8CAC68C0213B000C001B34A0 /* iTunesTable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C25B80921380E3D007C51FD /* Build configuration list for PBXNativeTarget "ISpy" */;
+			buildConfigurationList = 8CAC68D3213B000D001B34A0 /* Build configuration list for PBXNativeTarget "iTunesTable" */;
 			buildPhases = (
-				8C25B7F321380E3C007C51FD /* Sources */,
-				8C25B7F421380E3C007C51FD /* Frameworks */,
-				8C25B7F521380E3C007C51FD /* Resources */,
+				8CAC68BD213B000C001B34A0 /* Sources */,
+				8CAC68BE213B000C001B34A0 /* Frameworks */,
+				8CAC68BF213B000C001B34A0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ISpy;
-			productName = ISpy;
-			productReference = 8C25B7F721380E3C007C51FD /* ISpy.app */;
+			name = iTunesTable;
+			productName = iTunesTable;
+			productReference = 8CAC68C1213B000C001B34A0 /* iTunesTable.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8C25B7EF21380E3C007C51FD /* Project object */ = {
+		8CAC68B9213B000C001B34A0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Ricardo Yepez";
 				TargetAttributes = {
-					8C25B7F621380E3C007C51FD = {
+					8CAC68C0213B000C001B34A0 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 8C25B7F221380E3C007C51FD /* Build configuration list for PBXProject "ISpy" */;
+			buildConfigurationList = 8CAC68BC213B000C001B34A0 /* Build configuration list for PBXProject "iTunesTable" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 8C25B7EE21380E3C007C51FD;
-			productRefGroup = 8C25B7F821380E3C007C51FD /* Products */;
+			mainGroup = 8CAC68B8213B000C001B34A0;
+			productRefGroup = 8CAC68C2213B000C001B34A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C25B7F621380E3C007C51FD /* ISpy */,
+				8CAC68C0213B000C001B34A0 /* iTunesTable */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8C25B7F521380E3C007C51FD /* Resources */ = {
+		8CAC68BF213B000C001B34A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C25B80521380E3D007C51FD /* LaunchScreen.storyboard in Resources */,
-				8C25B80221380E3D007C51FD /* Assets.xcassets in Resources */,
-				8C25B80021380E3C007C51FD /* Main.storyboard in Resources */,
+				8CAC68CF213B000D001B34A0 /* LaunchScreen.storyboard in Resources */,
+				8CAC68CC213B000D001B34A0 /* Assets.xcassets in Resources */,
+				8CAC68CA213B000C001B34A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8C25B7F321380E3C007C51FD /* Sources */ = {
+		8CAC68BD213B000C001B34A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C25B7FD21380E3C007C51FD /* ViewController.swift in Sources */,
-				8C25B7FB21380E3C007C51FD /* AppDelegate.swift in Sources */,
+				8CAC68D9213B10ED001B34A0 /* SecondViewController.swift in Sources */,
+				8CAC68D7213B00E3001B34A0 /* Model.swift in Sources */,
+				8CAC68C7213B000C001B34A0 /* ViewController.swift in Sources */,
+				8CAC68C5213B000C001B34A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8C25B7FE21380E3C007C51FD /* Main.storyboard */ = {
+		8CAC68C8213B000C001B34A0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8C25B7FF21380E3C007C51FD /* Base */,
+				8CAC68C9213B000C001B34A0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8C25B80321380E3D007C51FD /* LaunchScreen.storyboard */ = {
+		8CAC68CD213B000D001B34A0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8C25B80421380E3D007C51FD /* Base */,
+				8CAC68CE213B000D001B34A0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8C25B80721380E3D007C51FD /* Debug */ = {
+		8CAC68D1213B000D001B34A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		8C25B80821380E3D007C51FD /* Release */ = {
+		8CAC68D2213B000D001B34A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -276,38 +284,36 @@
 			};
 			name = Release;
 		};
-		8C25B80A21380E3D007C51FD /* Debug */ = {
+		8CAC68D4213B000D001B34A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4HHL8R74H5;
-				INFOPLIST_FILE = ISpy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				INFOPLIST_FILE = iTunesTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mx.rictar.ISpy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.rictar.iTunesTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8C25B80B21380E3D007C51FD /* Release */ = {
+		8CAC68D5213B000D001B34A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4HHL8R74H5;
-				INFOPLIST_FILE = ISpy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				INFOPLIST_FILE = iTunesTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mx.rictar.ISpy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.rictar.iTunesTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C25B7F221380E3C007C51FD /* Build configuration list for PBXProject "ISpy" */ = {
+		8CAC68BC213B000C001B34A0 /* Build configuration list for PBXProject "iTunesTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C25B80721380E3D007C51FD /* Debug */,
-				8C25B80821380E3D007C51FD /* Release */,
+				8CAC68D1213B000D001B34A0 /* Debug */,
+				8CAC68D2213B000D001B34A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C25B80921380E3D007C51FD /* Build configuration list for PBXNativeTarget "ISpy" */ = {
+		8CAC68D3213B000D001B34A0 /* Build configuration list for PBXNativeTarget "iTunesTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C25B80A21380E3D007C51FD /* Debug */,
-				8C25B80B21380E3D007C51FD /* Release */,
+				8CAC68D4213B000D001B34A0 /* Debug */,
+				8CAC68D5213B000D001B34A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8C25B7EF21380E3C007C51FD /* Project object */;
+	rootObject = 8CAC68B9213B000C001B34A0 /* Project object */;
 }
